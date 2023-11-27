@@ -121,7 +121,7 @@ Visual Studio Code
 
   > ```php artisan migrate:fresh --seed```
 
-  - 6. Jalankan perintah ```npm run dev```
+  - 6. Jalankan perintah ```npm install && npm run dev```
 
   - 7. Jalankan servis nya:
 
