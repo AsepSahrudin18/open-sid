@@ -101,6 +101,7 @@ Visual Studio Code
 
   - 1. Buat database baru di PHPMyAdmin/di aplikasi manajamen database lokalmu (kosongan aja).
   - 2. Buat .env baru dengan perintah:
+  
   > ```cp .env.example .env```
 
   - 3. Generate key pada .env
