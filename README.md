@@ -96,7 +96,7 @@ Visual Studio Code
 
   > `https://github.com/AsepSahrudin18/open-sid.git`
 
-  ***Project Setup:***
+  ***Starting Project:***
   ---------------------
 
   - 1. Buat database baru di PHPMyAdmin/di aplikasi manajamen database lokalmu (kosongan aja).
