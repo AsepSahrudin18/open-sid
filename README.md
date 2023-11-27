@@ -1,64 +1,93 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Open SID (Sistem Informasi Desa)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Demo Aplikasi
 
-## About Laravel
+- Soon nanti di isi
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Cara Menggunakan GIT dengan Baik dan Benar
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Cara Berkontribusi di Project Ini
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+# Di Mohon jangan PUSH Langsung ke Branch "main"
 
-## Learning Laravel
+## Cara Branching
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Jika kamu bermaksud untuk meng-_improve_ atau memperbaharui
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+  > `git checkout -b "improvement/apa-yang-di-improve`
 
-## Laravel Sponsors
+- Jika kamu bermaksud untuk _Bug Fixing_
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+  > `git checkout -b "bugfix/apa-yang-di-fix`
 
-### Premium Partners
+- Jika kamu bermaksud untuk menambah _Feature_
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+  > `git checkout -b "feature/fitur-apa-yang-di-buat`
 
-## Contributing
+## Cara Commit
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- Jika kamu bermaksud untuk meng-_improve_ atau memperbaharui
 
-## Code of Conduct
+  > `git commit -m "improvement: apa yang di improve`
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- Jika kamu bermaksud untuk _Bug Fixing_
 
-## Security Vulnerabilities
+  > `git commit -m "bugfix: apa yang di fix`
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Jika kamu bermaksud untuk menambah _Feature_
 
-## License
+  > `git commit -m "feature: fitur apa yang di buat`
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Cara Mengatasi Konflik
+
+- 1 Stash dulu kerjaan kamu supaya gak ilang
+
+> `git stash`
+
+- 2 Setelah itu kamu perlu pull perubahan dari branch `main`
+
+> `git pull origin main`
+
+- 3 Setelah kamu berhasil melakukan pembaruan dari branch `main` selanjutnya kamu perlu mengembalikan pekerjaan mu sebelum nya yang ter-_stash_
+
+> `git stash pop`
+
+- 4 Lanjutkan Pekerjaan dengan Semestinya
+
+- 5 Tapi jika ketika melakukan langkah-langkah di atas masih terjadi error konflik atau karena ketololan kamu, maka ikuti langkah yang bawah
+
+## Cara Mengatasi Konflik Versi 2
+
+- 1 Pindah dulu ke Branch `main`
+
+> `git checkout main`
+
+- 2 Kemudian pull perubahan terbaru dari branch `main`
+
+> `git pull`
+
+- 3 Kemudian Pindah lagi ke branch yang sedang kamu kerjakan
+
+> `git checkout <branch mu>`
+
+- 4 Selanjutnya kita perlu merge perubahan terbaru dari `main`
+
+> `git merge origin main`
+
+## Rekomendasi Kode Editor
+
+Visual Studio Code
+
+### Rekomendasi Extension
+
+- Stylelint
+- TailwindCSS Intelesense
+- Prettier
+- Error Lens
+- ESLint
+
+## Setup Project
+
+- Clone Project ini ( Direkomendasikan menggunakan SSH )
+
+  > `git clone git@github.com:AsepSahrudin18/open-sid`
