@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{
+    DataPendudukController,
+
+};
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-// Auth::routes();
+Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
@@ -30,3 +34,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function(){
     return view('layouts.index');
 })->name('home');
+
+Route::get('data-penduduk', [DataPendudukController::class, 'index']);
+
+
+Route::get('new-page', function(){
+    return view('new-page');
+})->name('new-page');
