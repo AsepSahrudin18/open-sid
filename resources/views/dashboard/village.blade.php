@@ -7,38 +7,8 @@
   </title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="shortcut icon" href="https://berputar.opendesa.id/desa/logo/favicon.ico?vef97df0437aa60a9317906fb1aecab75">
-  <!-- Bootstrap 3.3.7 -->
-  <link rel="stylesheet" href="https://berputar.opendesa.id/assets/bootstrap/css/bootstrap.min.css?va33762e68af7d0da404f0c4ae54d3d94">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="https://berputar.opendesa.id/assets/css/AdminLTE.min.css?vafd4168d48a9477b2b26a526460c6aad">
-  <!-- Modifikasi -->
-  <link rel="stylesheet" href="https://berputar.opendesa.id/assets/css/admin-style.css?vdd259cd15237899b3665563cd63f3bbb">
-  <style>
-    .table {
-      font-size: 12px;
-    }
+  <link rel="stylesheet" href="{{ asset('css/village.css') }}">
 
-    .bg-identitas {
-      width: 100%;
-      height: 300px;
-      background: url("https://berputar.opendesa.id/desa/logo/1701141655_latar_login.jpg");
-      background-repeat: no-repeat;
-      background-position: center center;
-    }
-
-    .img-identitas {
-      margin: 30px auto;
-      width: 100px;
-      padding: 3px;
-    }
-
-    .text-identitas {
-      text-align: center;
-      font-weight: bold;
-      color: #fff;
-      text-shadow: 2px 2px 2px #0c83c5;
-    }
-  </style>
 
 <body id="sidebar_collapse" class="skin-purple fixed sidebar-mini sidebar-mini-expand-feature" style="height: auto; min-height: 100%;">
   <div class="wrapper" style="height: auto; min-height: 100%;">
