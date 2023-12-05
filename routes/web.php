@@ -5,6 +5,7 @@ use App\Http\Controllers\{
     DataPendudukController,
 
 };
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +39,6 @@ Route::get('/', function(){
 Route::get('data-penduduk', [DataPendudukController::class, 'index']);
 
 
-Route::get('new-page', function(){
-    return view('new-page');
-})->name('new-page');
+Route::get('village', function(){
+    return view('dashboard.village');
+})->name('village');
