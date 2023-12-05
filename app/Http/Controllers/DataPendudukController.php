@@ -17,7 +17,12 @@ class DataPendudukController extends Controller
      */
     public function index()
     {
-        return DataPenduduk::latest()->get();
+        // return DataPenduduk::latest()->get();
+        $data_penduduk = DataPenduduk::latest()->get();
+        
+        return view('dashboard.resident.data-penduduk', compact(
+            'data_penduduk'
+        ));
     }
 
     /**

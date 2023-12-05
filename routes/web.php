@@ -35,9 +35,10 @@ Route::get('/', function(){
     return view('layouts.index');
 })->name('home');
 
-Route::get('data-penduduk', [DataPendudukController::class, 'index']);
+Route::get('data-penduduk', [DataPendudukController::class, 'index'])->name('data-penduduk');
 
 
 Route::get('new-page', function(){
     return view('new-page');
 })->name('new-page');
+
